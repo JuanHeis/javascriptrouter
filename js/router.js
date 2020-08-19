@@ -2,7 +2,6 @@ class Router{
     constructor(paths){
         this.paths = paths;
         this.initRouter();
-        debugger
     }
     initRouter = () => {
         const { location: { pathname = '/'} } = window;
